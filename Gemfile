@@ -16,6 +16,8 @@ gem 'pg'
 gem 'pundit'
 gem 'simple_form'
 gem 'thin'
+# gem 'flat-ui-rails'
+gem 'flat-ui-sass', github: 'wingrunr21/flat-ui-sass'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]

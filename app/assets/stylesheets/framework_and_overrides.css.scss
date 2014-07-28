@@ -1,5 +1,8 @@
 // import the CSS framework
-@import "bootstrap";
+@import 'flat-ui/variables';
+@import 'bootstrap';
+@import 'flat-ui';
+
 
 // make all images responsive by default
 img {
@@ -34,7 +37,7 @@ img {
 // to make views framework-neutral
 main {
   @extend .container;
-  background-color: #eee;
+  background-color: #fff;
   padding-bottom: 80px;
   width: 100%;
   margin-top: 51px; // accommodate the navbar
@@ -55,7 +58,7 @@ section {
 .authform form {
   @extend .well;
   @extend .well-lg;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 .authform .right {
   float: right !important;
